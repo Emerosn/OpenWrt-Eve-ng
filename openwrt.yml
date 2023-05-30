@@ -1,0 +1,22 @@
+#I created this virtualization image for userd Eve-ng, to use freely
+---
+type: qemu
+description: OpenWrt
+name: Route1
+cpulimit: 1
+icon: openroute.png
+cpu: 2
+ram: 2048
+ethernet: 8
+eth_name:
+- eth0
+- eth1
+- eth2
+eth_format: GE1/0/{0}
+console: telnet
+shutdown: 1
+qemu_arch: x86_64
+qemu_version: 2.4.0
+qemu_nic: virtio-net-pci	
+qemu_options:  -machine type=pc-1.0,accel=kvm -serial mon:stdio -nographic -nodefconfig -nodefaults -rtc base=utc -cpu host 
+...
