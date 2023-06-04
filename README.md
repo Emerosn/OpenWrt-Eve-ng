@@ -8,7 +8,7 @@ I have created this virtualization image for Eve-ng users to freely utilize.
 
 ### Installation Steps
 
- 1.   Create a directory:
+1.   Create a directory:
 
 ``` "bash"
 mkdir -p /opt/unetlab/addons/qemu/openwrt-22.03/
