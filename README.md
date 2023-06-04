@@ -14,9 +14,10 @@ I have created this virtualization image for Eve-ng users to freely utilize.
 
 mkdir -p /opt/unetlab/addons/qemu/openwrt-22.03/
 ``
+</br>
 2. Copy the .qcow2 file to the designated directory:
 
-``` bash
+bash ```
 
 cp -r ./hda.qcow2 /opt/unetlab/addons/qemu/openwrt-22.03/
 cp -r .openroute.icon /opt/unetlab/html/images/icons/
