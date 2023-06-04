@@ -12,10 +12,11 @@ password: admin
 ``
  cp -r ./hda.qcow2 /opt/unetlab/addons/qemu/openwrt-22.03/
  ``
+ </br>
  ``
  cp -r .openroute.icon /opt/unetlab/html/images/icons/
 ``
-* Your cpu bland </br>
+* Your cpu bland alter $CPU in Interl or Amd </br>
  ``
  cp -r ./openwrt.yml /opt/unetlab/html/templates/{$cpu}/
  ``
